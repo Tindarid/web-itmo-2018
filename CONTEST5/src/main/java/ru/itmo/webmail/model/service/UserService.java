@@ -4,7 +4,6 @@ import com.google.common.hash.Hashing;
 import ru.itmo.webmail.model.domain.User;
 import ru.itmo.webmail.model.exception.ValidationException;
 import ru.itmo.webmail.model.repository.UserRepository;
-import ru.itmo.webmail.model.repository.impl.UserRepositoryImpl;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -13,7 +12,7 @@ import java.util.List;
 public class UserService {
     private static final String USER_PASSWORD_SALT = "dc3475f2b301851b";
 
-    private UserRepository userRepository = new UserRepositoryImpl();
+    private UserRepository userRepository = new UserRepository();
 
     public User findByLoginOrEmail(String loginOrEmail) {
         return userRepository.findByLoginOrEmail(loginOrEmail);

@@ -13,6 +13,8 @@ public class Event implements Serializable {
     private Date creationTime;
     private Type type;
 
+    public Event() {}
+
     public long getUserId() {
         return userId;
     }

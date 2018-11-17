@@ -9,6 +9,8 @@ public class EmailConfirmation implements Serializable {
     private String secret;
     private Date creationTime;
 
+    public EmailConfirmation() {}
+
     public long getId() {
         return id;
     }

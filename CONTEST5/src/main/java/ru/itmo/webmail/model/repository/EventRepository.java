@@ -2,8 +2,13 @@ package ru.itmo.webmail.model.repository;
 
 import ru.itmo.webmail.model.domain.Event;
 
-import java.util.List;
+public class EventRepository extends Repository<Event> {
+    public EventRepository() {
+        type = Event.class;
+    }
 
-public interface EventRepository {
-    void save(Event event);
+    public void save(Event event) {
+        String sql = "INSERT INTO Event (userId, type, creationTime) VALUES (?, ?, NOW())";
+        saveHelper(event, sql, new Object[] {event.getUserId(), event.getType().toString()});
+    }
 }

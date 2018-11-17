@@ -10,6 +10,8 @@ public class Talk implements Serializable {
     private String text;
     private Date creationTime;
 
+    public Talk(){}
+
     public long getId() {
         return id;
     }

@@ -10,6 +10,10 @@ public class User implements Serializable {
     private Date creationTime;
     private boolean confirmed;
 
+    public User() {
+        super();
+    }
+
     public boolean isConfirmed() {
         return confirmed;
     }
