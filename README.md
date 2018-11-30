@@ -7,5 +7,5 @@ ITMO web course
 5. [SQL](https://docs.google.com/document/d/1_EydQgZmZSrCc9njVT8R8hUoBL9NvPGCF_4aUFqw3D8) (SQL basics, refactoring with Java reflection, MariaDB)
 6. [AJAX](https://docs.google.com/document/d/1PscabT3kPsfOJFuqkBGjvRKCj0Kgg5EUI9oFlMs4a_4) (Javascript, AJAX)
 7. [Spring](https://docs.google.com/document/d/10qHT9w4DO9ldpHsTLyo4M3JyNYkfHC28KG574rd2gWo) (Spring Boot)
-8. [Spring 2](https://docs.google.com/document/d/1n4EIMblryWcMcx5BJQzeXPnQK331fD3wkOvN-EAipN0) (Spring Boot)
+8. [Spring 2](https://docs.google.com/document/d/1n4EIMblryWcMcx5BJQzeXPnQK331fD3wkOvN-EAipN0) (Java Persistence, Relationships)
 9. [Node.js](https://docs.google.com/document/d/1laCICn5jZwO3LTdFTBpjDw_1apDmY1MQb1cd1OIFp9Y) (Vue.js)
