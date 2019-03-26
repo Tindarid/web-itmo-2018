@@ -1,5 +1,5 @@
-# web-itmo-2018
-ITMO web course
+# Курс "Веб-программирование", ИТМО, весна 2018
+Темы и задания:
 1. [HTTP](http://codeforces.com/group/M9Yj6K7UrC/contest/228380/problems) (cURL usage, HTTP-requests, simple HTTP server)
 2. [Верстка](http://codeforces.com/group/M9Yj6K7UrC/contest/228776/problems) (HTML + CSS)
 3. [Servlet API](http://codeforces.com/group/M9Yj6K7UrC/contest/229221/problems) (Tomcat, JSON, CaptchaFilter)
